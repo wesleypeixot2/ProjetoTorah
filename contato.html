@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contato</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/sobre.css">
+        <link rel="stylesheet" href="css/contato.css">
+        <script src="../ProjetoTorah/javascript/contato.js"></script>
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" type="imagex/png" href="../ProjetoTorah/img/estrela-de-davi.png">
+    </head>
+
+    <body>
+        <!--Cabeçalho-->
+        <header>
+            <nav>
+                <a class="logo" href="../ProjetoTorah/index.html">Conheça a Torá - תורה</a>
+                <ul class="nav-list">
+                    <li><a href="../ProjetoTorah/index.html">Inicio</a></li>
+                    <li><a href="../ProjetoTorah/sobre.html">Sobre</a></li>
+                    <li><a href="../ProjetoTorah/parashat.html">Parashot</a></li>
+                    <li><a href="../ProjetoTorah/contato.html">Fale Conosco</a></li>
+                    <li><a href="../ProjetoTorah/sabios.html">Aprenda a Torá Oral</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!--Cadastro-->
+            <div>
+                <img src="img/muro.jpg">  
+                <form name="meu_form">
+                    <h1>Entre em contato</h1>
+                    <input type="text" id="nomeid" placeholder="Wesley" required="required" name="nome" />
+                    <label for="nome">Nome</label>
+
+                    <input type="tel" id="foneid" placeholder="(xx)xxxxx-xxxx" name="fone" />
+                    <label for="fone">Fone</label>
+                
+                    <input type="email" id="emailid" placeholder="rav@mail.com" name="email" />
+                    <label for="email">Email</label>
+                
+                    <textarea placeholder="Deixe sua opnião"></textarea>
+
+                    <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+                </form>
+            </div>
+
+            <!--Contato-->
+            <footer>
+                <h2 class="subtitulo">Contato</h2>
+                <div class="contato_secao">
+                    <h3 class="contato_subtitulo">Correspondência</h3>
+                    <small>(todos os dias, das 9h às 18h)</small>
+                    <address class="contato_info">
+                        Yeshiva Lubavitch<br>
+                        Rua Moshe, 777, 12° andar<br>
+                        Monte Sinai
+                    </address>
+                </div>
+                <div class="contato_secao contato_secao-telefone">   
+                    <h3 class="contato_subtitulo">Telefone</h3>
+                    <small>(segunda à sexta, das 9h às 18h)</small>
+                    <dl class="contato_info">
+                        <dt class="contato_info-titulo">Rav Yeshua ha Melech:</dt>
+                        <dd class="contato_info-descricao"><a id="telefone" href="tel://41 7777-7777">(41) 7777-7777</a></dd>
+                    </dl>
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>

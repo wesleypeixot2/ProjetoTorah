@@ -1,0 +1,139 @@
+header {
+    background-color: rgb(29, 29, 56);
+}
+
+/* Teste Botão*/
+
+a {
+    color:antiquewhite;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-sysyem, Arial, Helvetica, sans-serif;
+    background-color: #23232e;
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3d3d3d;
+    width: 80%;
+    max-width: 940px;
+	margin-left:	auto;
+	margin-right:	auto;
+}
+
+.titulo {
+    font-family: serif;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+
+.subtitulo {
+    border-bottom: 2px solid black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#rebe {
+    text-align: center;
+    background-color: whitesmoke;
+    border: 3px solid #dfb04c;
+    margin: 30px;
+    padding: 15px;
+    max-width:	100%;
+	box-sizing:	border-box;
+}
+
+#eliahu {
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 30px;
+    padding: 15px;
+    max-width:	100%;
+	box-sizing:	border-box;
+}
+
+.figuras {
+    text-align: center;
+    max-width:	100%;
+	box-sizing:	border-box;
+}
+
+.contato_subtitulo {
+    display: inline;
+}
+
+.contato_secao {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+
+.contato_secao-telefone {
+    margin-left: 32px;
+}
+
+.contato_info {
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+
+#telefone {
+    color: blue;
+}
+
+.contato_info-titulo, .contato_info-descricao {
+    display: inline;
+}
+
+.contato_info-descricao {
+    margin-left: 10px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #dfb04c;
+    border-radius: 3px;
+    padding: auto;
+    padding-left: 13px;
+    padding-right: 13px;
+
+}
+
+#chabad {
+    color: blue;
+}
+
+.link_fundo {
+    color: blue;
+}
+
